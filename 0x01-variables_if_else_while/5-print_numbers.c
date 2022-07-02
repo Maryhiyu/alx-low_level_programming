@@ -1,17 +1,14 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - Prints all single digit numbers of base 10 starting from 0.
  *
- * Description: A C program that prints with printf function.
+ * Return: Always 0.
  */
-int main(void)
-{
-	int Z;
-	for (Z = 'z'; Z >= 'a'; Z-)
-	{
-		putchar(Z);
-	}
-	putchar('\n');
+iint main(void)
+{{
+	int num;
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+	printf("\n");
 	return (0);
-}
-/* q7 */
+}}
