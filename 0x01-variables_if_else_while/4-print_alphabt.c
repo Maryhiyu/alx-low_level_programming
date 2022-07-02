@@ -1,19 +1,17 @@
 #include <stdio.h>
 /**
- * main - Entry point 
+ * main - Prints the alphabet in lowercase,except for q and e.
  *
- * Description: A C program that prints with printf function.
- *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	int Z;
-	for (Z = 'z'; Z >= 'a'; Z-)
+	char letter;
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-		putchar(Z);
+		if (letter != 'e' && letter != 'q')
+			putchar(letter);
 	}
 	putchar('\n');
 	return (0);
 }
-/* q7 */
