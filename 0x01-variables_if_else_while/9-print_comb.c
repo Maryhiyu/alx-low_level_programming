@@ -1,21 +1,20 @@
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * description print
- *
- * Return: Always 0 (Sucsess)
- */
+/
+*main - entry block
+*
+* Return: 0
+/
 int main(void)
 {
-int l;
-for (l = 0; l < 10; l++)
+int i;
+
+for (i = 0; i < 10; i++)
 {
-putchar(l + 48);
-if (l ! = 9)
+putchar(i % 10 + '0');
+if (i < 9)
 {
 putchar(',');
-putchar(' ');
+putchar('');
 }
 }
 putchar('\n');
