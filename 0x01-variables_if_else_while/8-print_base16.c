@@ -5,6 +5,7 @@
  * Return: Always 0.
  */
 int main(void)
+
 {
 	int num;
 	char letter;
@@ -13,6 +14,6 @@ int main(void)
 	for (letter = 'a'; letter <= 'f'; letter++)
 	    putchar(letter);
 	putchar('\n');
-	return(0);
+	return (0);
 }
 
