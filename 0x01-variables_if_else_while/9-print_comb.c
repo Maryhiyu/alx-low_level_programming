@@ -1,22 +1,24 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.>
 /**
- * main - dora korpar
- * Return: 0 if exited properly
+ * main - Entry point
+ *
+ * description print
+ *
+ * Return: Always 0 (Sucsess)
  */
 int main(void)
 {
-int ch;
+   int l;
 
-for (ch = 48; ch <= 57; ch++)
-{
-putchar(ch);
-if (ch != 57)
-{
-putchar(44);
-putchar(32);
-}
-}
-putchar(10);
-return (0);
+   for (l= 0; l < 10; l++)
+   {
+    putchar(l + 48);
+    if (l !=9)
+    {
+    putchar(',');
+    putchar(' ');
+    }
+  }
+  putchar('\n');
+  return (0);
+ }
