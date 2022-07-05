@@ -1,4 +1,4 @@
-1-alphabet.c
+1 -alphabet.c
 #include "main.h"
 /**
  * print_alphabet - function to print abc
